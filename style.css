@@ -1,0 +1,33 @@
+.container, .container-fluid, .row {
+    padding: 0;
+}
+.btn-warning{
+    background-color: #F3613C;
+}
+.btn {
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+}
+.btn:hover{
+    opacity: 0.60;
+    background-color: #F3613C !important;
+    color: white !important;
+}
+
+#img-fond {
+    background-image: url(img/bg-simplify-section-desktop.svg);
+    background-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    opacity: 0.60;
+    text-decoration: none;
+}
