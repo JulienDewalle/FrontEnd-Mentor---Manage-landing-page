@@ -16,7 +16,7 @@
 
 #img-fond {
     background-image: url(img/bg-simplify-section-desktop.svg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -31,4 +31,14 @@ ul li a{
 a:hover {
     opacity: 0.60;
     text-decoration: none;
+}
+.button-number {
+    border: 1px solid #F3613C;
+    width: 10%;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #F3613C;
+    padding-left: 19px;
+    color: white;
+    position: relative;
+    top: 22px;
 }
