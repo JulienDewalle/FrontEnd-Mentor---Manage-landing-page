@@ -42,3 +42,29 @@ a:hover {
     position: relative;
     top: 22px;
 }
+.img-position {
+    position: relative;
+    left: 36%;
+    bottom: 5em;
+}
+.position-h6 {
+    position: relative;
+    bottom: 3em;
+}
+.position-p {
+    position: relative;
+    bottom: 3em;
+}
+.btn-position {
+    display: flex;
+}
+.bg-secondary {
+    background-color: beige !important;
+    width: 20%;
+}
+.bg-danger {
+    background-color: #F3613C !important;
+}
+.text-danger {
+    color: #F3613C !important;
+}
