@@ -1,6 +1,9 @@
 .container, .container-fluid, .row {
     padding: 0;
 }
+.row {
+    margin: 0;
+}
 .btn-warning{
     background-color: #F3613C;
 }
@@ -67,4 +70,7 @@ a:hover {
 }
 .text-danger {
     color: #F3613C !important;
+}
+input {
+    border-radius: 20px 20px 20px 20px;
 }
