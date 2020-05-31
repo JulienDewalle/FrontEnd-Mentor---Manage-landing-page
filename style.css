@@ -17,6 +17,7 @@
 #img-fond {
     background-image: url(img/bg-simplify-section-desktop.svg);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 ul {
