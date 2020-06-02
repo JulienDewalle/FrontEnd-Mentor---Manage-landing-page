@@ -11,7 +11,7 @@ document.querySelector("#toggle_btn").onclick = function() {
 }
 
 myImage = document.querySelector('#toggle_btn');
-var actionImage = function () {
+let actionImage = function () {
     let getSrc = myImage.getAttribute('src')
     if (getSrc === 'img/icon-hamburger.svg') {
         myImage.setAttribute('src', 'img/icon-close.svg')

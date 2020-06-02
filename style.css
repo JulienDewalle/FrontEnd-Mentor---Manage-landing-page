@@ -68,6 +68,9 @@ a:hover {
 .bg-danger {
     background-color: #F3613C !important;
 }
+.bg-red {
+    background-color: #FFFEFE !important;
+}
 .text-danger {
     color: #F3613C !important;
 }
@@ -100,7 +103,7 @@ input {
         display: flex !important;
     }
   }
-  @media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
     #responsive-desktops {
         display: flex !important;
     }
@@ -108,3 +111,11 @@ input {
         display: none !important;
     }
   }
+@media screen and (max-width: 565px) {
+    .button-number {
+        padding-left: 15px;
+        width: 15%;
+    }
+    
+    
+}
