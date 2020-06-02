@@ -116,6 +116,10 @@ input {
         padding-left: 15px;
         width: 15%;
     }
+    .center-text {
+        text-align: center;
+        width: 100% !important;
+    }
     
     
 }
