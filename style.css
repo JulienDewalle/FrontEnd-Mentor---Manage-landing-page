@@ -102,6 +102,12 @@ input {
     #responsive-menu {
         display: flex !important;
     }
+    .section-md {
+        display: none !important;
+    }
+    .section-sm-carousel {
+        display: block !important;
+    }
   }
 @media screen and (min-width: 992px) {
     #responsive-desktops {
@@ -109,6 +115,12 @@ input {
     }
     #responsive-menu {
         display: none !important;
+    }
+    .section-md {
+        display: block !important;
+    }
+    .section-sm-carousel {
+        display: flex !important;
     }
   }
 @media screen and (max-width: 565px) {
@@ -120,6 +132,27 @@ input {
         text-align: center;
         width: 100% !important;
     }
-    
+    .img-position {
+        position: relative;
+        left: 30%;
+        bottom: 0em;
+    }
+    .position-h6 {
+        position: relative;
+        bottom: 0em;
+        margin-top: 10px;
+    }
+    .position-p {
+        position: relative;
+        bottom: 0em;
+    } 
+    .position-indicators {
+        border-radius: 50%;
+        width: 10px !important;
+        height: 10px !important;
+        position: relative;
+        top: 50px;
+        background-color: #F3613C !important;
+    }
     
 }
