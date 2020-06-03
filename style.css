@@ -47,7 +47,6 @@ a:hover {
 }
 .img-position {
     position: relative;
-    left: 23%;
     bottom: 5em;
 }
 .position-h6 {
@@ -95,20 +94,7 @@ input {
 }
 
 
-@media screen and (max-width: 992px) {
-    #responsive-desktops {
-        display: none !important;
-    }
-    #responsive-menu {
-        display: flex !important;
-    }
-    .section-md {
-        display: none !important;
-    }
-    .section-sm-carousel {
-        display: block !important;
-    }
-  }
+
 @media screen and (min-width: 992px) {
     #responsive-desktops {
         display: flex !important;
@@ -122,8 +108,21 @@ input {
     .section-sm-carousel {
         display: none !important;
     }
-  }
-@media screen and (max-width: 768px) {
+}
+
+  @media screen and (max-width: 992px) {
+    #responsive-desktops {
+        display: none !important;
+    }
+    #responsive-menu {
+        display: flex !important;
+    }
+    .section-md {
+        display: none !important;
+    }
+    .section-sm-carousel {
+        display: block !important;
+    }
     .button-number {
         padding-left: 15px;
         width: 15%;
@@ -134,7 +133,6 @@ input {
     }
     .img-position {
         position: relative;
-        left: 30%;
         bottom: 0em;
     }
     .position-h6 {
@@ -154,8 +152,15 @@ input {
         top: 50px;
         background-color: #F3613C !important;
     }
+    .carousel-item {
+        height: 300px;
+    }
     .text-width {
         width: 100% !important;
+    }   
+}
+@media screen and (max-width: 768px) {
+    .carousel-item {
+        height: 350px;
     }
-    
 }
