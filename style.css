@@ -108,9 +108,15 @@ input {
     .section-sm-carousel {
         display: none !important;
     }
+    #text-hidden-desktops {
+        display: none !important;
+    }
 }
 
   @media screen and (max-width: 992px) {
+    #text-hidden-smartphone {
+        display: none !important;
+    }
     #responsive-desktops {
         display: none !important;
     }
@@ -163,7 +169,31 @@ input {
     .carousel-item {
         height: 350px;
     }
-}
-@media screen and (max-width: 1100px) {
-
+    .reverse-responsive {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .reverse-responsive img {
+        margin-bottom: 5rem;
+        margin-top: 1rem !important;
+    }
+    .responsive-margin {
+        padding-bottom: 0 !important;
+        margin-top: 1rem !important;
+    }
+    .responsive-margin a {
+        margin-left: 2rem !important;
+    }
+    .responsive-margin img {
+        width: 25px;
+    }
+    #text-hidden-desktops {
+        text-align: center;
+        position: relative;
+        top: 34em;
+    }
+    .input-footer input, .btn-responsive {
+        position: relative;
+        bottom: 2.5rem;
+    }
 }
