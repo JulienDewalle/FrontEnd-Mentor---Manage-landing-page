@@ -20,3 +20,5 @@ let actionImage = function () {
     }
 };
 myImage.addEventListener('click', actionImage);
+
+

@@ -92,7 +92,15 @@ input {
 #toggle_btn {
     cursor: pointer;
 }
-
+footer a:hover {
+    color: #F3613C !important;
+}
+input:focus {
+    color: #F3613C !important;
+}
+.hover-img:hover {
+    color: #F3613C !important;
+}
 
 
 @media screen and (min-width: 992px) {
