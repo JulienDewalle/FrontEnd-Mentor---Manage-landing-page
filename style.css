@@ -12,7 +12,7 @@
     color: white;
 }
 .btn:hover{
-    opacity: 0.60;
+    opacity: 0.30;
     background-color: #F3613C !important;
     color: white !important;
 }
@@ -30,6 +30,7 @@ ul li a{
     display: block;
     text-decoration: none;
     color: black;
+    
 }
 a:hover {
     opacity: 0.60;
@@ -98,8 +99,13 @@ footer a:hover {
 input:focus {
     color: #F3613C !important;
 }
-.hover-img:hover {
+.icon:hover {
+    filter: invert(55%) sepia(83%) saturate(3640%) hue-rotate(338deg) brightness(99%) contrast(92%);
+}
+#btn-hover:hover {
     color: #F3613C !important;
+    background-color: white !important;
+    opacity: 0.80 !important;
 }
 
 
